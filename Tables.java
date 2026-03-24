@@ -1,0 +1,17 @@
+package BASICS;
+
+import java.util.Scanner;
+
+public class Tables {
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter number:");
+        int num = input.nextInt();
+
+        for(int i =0;i<=10;i++){
+            System.out.println(num + "X" + i + "=" + (num*i));
+        }
+    }
+}
