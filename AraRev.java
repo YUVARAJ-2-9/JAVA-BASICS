@@ -21,6 +21,7 @@ public class AraRev {
            System.out.println(num[i]);
             
         }
+        obj.close();
         
     }
 }

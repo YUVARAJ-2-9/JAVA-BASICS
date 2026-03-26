@@ -20,8 +20,12 @@ public class Array {
         }
         System.out.println(sum);
         System.out.println("AVG:" + (sum/5));
+         input.close();
+         
     
         }
+
+       
         
         
     }
