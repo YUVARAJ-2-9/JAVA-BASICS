@@ -19,6 +19,7 @@ public class Leap {
         else{
             System.out.println("not a leap year!");
         }
+        yuv.close();
 
        
     }

@@ -1,3 +1,5 @@
+package BASICS;
+
 import java.util.Scanner;
 
 public class Balance {
@@ -15,5 +17,6 @@ public class Balance {
             double Balance =total - Spent;
 
             
-            System.out.println(Balance);                }
+            System.out.println(Balance);    
+        input.close();            }
 }

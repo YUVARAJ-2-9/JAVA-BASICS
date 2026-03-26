@@ -23,8 +23,10 @@ public class Count {
                 oCount = oCount + sum[i];
             }
         }
+
         System.out.println(eCount);
         System.out.println(oCount);
         
+       yuv.close(); 
     }
 }

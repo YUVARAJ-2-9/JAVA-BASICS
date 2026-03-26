@@ -12,6 +12,8 @@ public class Mul {
         for(int i = 10 ;i>=1;i--){
             System.out.println(num + "*" + i + "=" + (num*i));
         }
+        input.close();
+        
     }
     
 }

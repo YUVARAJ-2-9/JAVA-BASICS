@@ -15,7 +15,7 @@ public class Even {
                 System.out.println(i);
             }
             
-
+ input.close();
 }
 }
 }

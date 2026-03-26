@@ -34,7 +34,7 @@ public class Linear {
     else{
             System.out.println("Target not found!");
         }
-    
+    obj.close();
     
        
     }

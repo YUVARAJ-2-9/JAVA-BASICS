@@ -19,6 +19,7 @@ public class BookTic {
             int prize1 = 200;
             System.out.println("ticket : " + prize1);
         }
+        input.close();
 
 
     }

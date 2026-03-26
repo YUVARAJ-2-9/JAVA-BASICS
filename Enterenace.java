@@ -19,5 +19,6 @@ public class Enterenace {
         else{
             System.out.println("Sorry, you cannot enter.");
         }
+        obj.close();
     }
 }

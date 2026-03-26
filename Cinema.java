@@ -25,5 +25,6 @@ public class Cinema {
             int pr3=200;
             System.out.println("Ticket prize " + pr3);
         }
+        input.close();
     }
 }

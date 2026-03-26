@@ -25,6 +25,7 @@ public class Largest {
 
         }
         System.out.println("Largest number "+ max);
+        obj.close();
     }
     
     }

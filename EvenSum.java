@@ -24,6 +24,7 @@ class EvenSum{
             Odd = Odd + sum[i];
 
         }
+        obj.close();
 
         }
         System.out.println(Even);
