@@ -8,6 +8,7 @@ public class Smallest {
         
         Scanner input = new Scanner(System.in);
         int [] small = new int [5];
+        int sum =0;
 
         System.out.println("Enter the numbers:");
         for(int i =0 ;i<5;i++){
@@ -18,9 +19,16 @@ public class Smallest {
         for(int i = 0;i<5;i++){
             if(small[i] < min){
                 min = small[i];
+                
             }
         }
+        for(int i =0;i<5;i++){
+            sum = sum + small[i];
+        }
+       
         System.out.println("Small value:" + min);
+        System.out.println("SUM:" + sum);
+        System.out.println("AVG:" + sum/5);
         input.close();
 
     }
