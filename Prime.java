@@ -20,5 +20,6 @@ public class Prime {
         } else {
             System.out.println("Not Prime!");
         }
+        obj.close();
     }
 }
