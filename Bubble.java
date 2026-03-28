@@ -28,5 +28,6 @@ public class Bubble {
         for(int i =0;i<5;i++){
             System.out.println(sor[i] + " ");
         }
+        input.close();
     }
 }

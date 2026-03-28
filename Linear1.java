@@ -36,5 +36,6 @@ public class Linear1 {
             else{
                 System.out.println("not found!");
             }
+            
     }
 }
