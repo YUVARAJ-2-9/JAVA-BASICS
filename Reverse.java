@@ -14,5 +14,6 @@ public class Reverse {
              System.out.println(num + "X" + i + "=" + (num*i));
         
         }
+        obj.close();
     }
 }
