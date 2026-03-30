@@ -11,6 +11,7 @@ public class Str {
         String name = str.nextLine();
 
         int count = 0;
+        name = name.toLowerCase();
         for(int i =0 ;i<name.length();i++){
             char ch =name.charAt(i);
 
