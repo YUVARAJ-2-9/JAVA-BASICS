@@ -20,7 +20,7 @@ public class Str {
         }
     }
     System.out.println("Total vowels  in your text " + count);
-    
+    str.close();
 }
 
 }
