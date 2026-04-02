@@ -2,16 +2,19 @@ package BASICS;
 
 public class Multi {
 
-    public static void printMyname(){
+    public static void printMyname(String name){
         for(int i =1 ;i<=5;i++){
-            System.out.println("YUVARAJ ENKIRA YUVI!!");
+            System.out.println(name);
         }
     }
 
 
     public static void main(String[] args) {
+
         
-        printMyname();
+        
+        printMyname("YUVII");
+
     }
     
 }
