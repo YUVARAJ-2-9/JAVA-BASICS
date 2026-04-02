@@ -20,6 +20,13 @@ public class Des {
 
         boolean result = isEligible(val);
         System.out.println(result);
+
+        // Just try this in your main method:
+if (result) {
+    System.out.println("Machi, neenga vote podalaam!");
+} else {
+    System.out.println("Innum chinna paiyan machi nee!");
+}
 input.close();
 
     }
