@@ -25,5 +25,7 @@ public class Swap {
         System.err.println(swap);
         System.err.println(swap1);
 
+        input.close();
+
     }
 }
