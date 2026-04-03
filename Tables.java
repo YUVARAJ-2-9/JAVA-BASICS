@@ -13,5 +13,6 @@ public class Tables {
         for(int i =0;i<=10;i++){
             System.out.println(num + "X" + i + "=" + (num*i));
         }
+        input.close();
     }
 }
