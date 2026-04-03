@@ -37,6 +37,7 @@ public class Rev {
                 System.out.println(arr[i] + " ");
             }
         }
+        input.close();
     }
     
 }
