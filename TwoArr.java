@@ -31,5 +31,7 @@ public class TwoArr {
         }
         System.out.println(total);
         System.out.println(diaSum);
+
+        input.close();
     }
 }
