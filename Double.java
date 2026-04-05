@@ -42,5 +42,6 @@ public class Double {
 
        printEven(arr);
        printOdd(arr);
+       input.close();
     }
 }
