@@ -17,7 +17,7 @@ public class While {
           i++;  
         }
         
-
+        obj.close();
         
     }
 }
