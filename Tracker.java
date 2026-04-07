@@ -36,7 +36,7 @@ public class Tracker {
         }
         System.out.println(finalCount);
 
-        
+        input.close();
 
 
 
