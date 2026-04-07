@@ -14,7 +14,7 @@ public class Starter {
         }
 
 
-
+        double avg = (double) sum / cal.length;
         return avg;
 
 
@@ -53,6 +53,9 @@ public class Starter {
         double avg =  avgFind(cal);
         String grade = gradeChanger(avg);
 
-        
+        System.out.println("Average:" + avg);
+        System.out.println("Grade:" + grade);
+
+
        }
 }
