@@ -56,6 +56,8 @@ public class Starter {
         System.out.println("Average:" + avg);
         System.out.println("Grade:" + grade);
 
+        input.close();
+
 
        }
 }
