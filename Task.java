@@ -23,6 +23,7 @@ public class Task {
 
         System.out.println("Print Vcount:" + vCount);
         System.out.println("Print Ccount:" + cCount);
+        chi.close();
         
     }
 }
