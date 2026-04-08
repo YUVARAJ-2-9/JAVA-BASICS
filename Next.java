@@ -20,6 +20,7 @@ public class Next {
         else{
             System.err.println("Not Palindrome!");
         }
+        input.close();
 
 
     }
