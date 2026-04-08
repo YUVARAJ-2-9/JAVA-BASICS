@@ -17,6 +17,7 @@ public class StrRev {
 
         }
         System.out.println("Reversed:" + rev);
+        input.close();
     }
     
 }
