@@ -25,6 +25,7 @@ public class Class2 {
 
          s1.displayInfo();
          s2.displayInfo();
+         
     }
 
     
