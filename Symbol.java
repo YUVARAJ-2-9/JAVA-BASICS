@@ -22,6 +22,7 @@ public class Symbol {
             }
 
             System.out.println("OUTPUT :" + result);
+            input.close();
         }
 
         
