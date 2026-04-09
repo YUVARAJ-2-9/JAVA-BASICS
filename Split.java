@@ -15,6 +15,7 @@ public class Split {
         int count = word.length;
 
         System.out.println("Total Words :" + count);
+        input.close();
 
 
         
