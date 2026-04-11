@@ -9,7 +9,7 @@ class Hero{
 }
 
 class SpiderMan extends Hero{
-    
+   @Override 
     void usePower(){
         System.out.println(power + "Spiderman is shooting webs!");
     }
