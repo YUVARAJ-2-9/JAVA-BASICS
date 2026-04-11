@@ -11,7 +11,7 @@ class Hero{
 class SpiderMan extends Hero{
     
     void usePower(){
-        System.out.println("Spiderman is shooting webs!");
+        System.out.println(power + "Spiderman is shooting webs!");
     }
 
 }
@@ -25,6 +25,7 @@ public class In {
         Hero myHero = new Hero();
         SpiderMan mySpiderMan = new SpiderMan();
         IronMan myIronMan = new IronMan();
+        mySpiderMan.power = "Webs!";
 
         myHero.usePower();
         mySpiderMan.usePower();
