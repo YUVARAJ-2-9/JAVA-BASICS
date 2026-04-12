@@ -15,14 +15,14 @@ class StoryBook extends Book1{
 
 public class Book {
     public static void main(String[] args) {
-        Book1 s2 = new Book1();
+        
         StoryBook s1 = new StoryBook();
 
-        s2.bookName = "I to had a love Story!";
+        s1.bookName = "I to had a love Story!";
         s1.author = "yuvaraj";
 
         s1.read();
-        s2.read();
+       
         
     }
 }
