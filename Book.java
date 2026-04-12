@@ -9,7 +9,7 @@ class Book1{
 class StoryBook extends Book1{
     String author;
     void read(){
-        System.out.println("Reading a book stroy by :" + author);
+        System.out.println("Reading " + bookName + "written by " + author);
     }
 }
 
