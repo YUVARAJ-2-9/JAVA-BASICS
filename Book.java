@@ -21,9 +21,7 @@ public class Book {
         s1.bookName = "I to had a love Story!";
         s1.author = "yuvaraj";
 
-        s1.read();
-        
-       
+        s1.read();;
         
     }
 }
