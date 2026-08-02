@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Even {
     public static void main(String[] args) {
         int [] arr = {1,2,3,4,5,6};
@@ -17,3 +18,26 @@ public class Even {
         }
     }
 }
+=======
+package BASICS;
+
+import java.util.Scanner;
+
+public class Even {
+    
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter teh number:");
+        int num = input.nextInt();
+
+        for(int i=1 ; i<=num;i++){
+            if(i % 2 == 0){
+                System.out.println(i);
+            }
+            
+ input.close();
+}
+}
+}
+>>>>>>> 46837f51ce135bed7ff5ff20cc23e55bf0eac297

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Arrays;
 
 /**
@@ -32,3 +33,28 @@ public static void main(String[] args) {
    
 }
 }
+=======
+package BASICS;
+
+import java.util.Scanner;
+
+
+
+
+public class StrRev {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the value:");
+        String name = input.nextLine();
+
+        String rev = "";
+        for(int i =name.length()-1 ;i>=0;i--){
+        rev = rev + name.charAt(i);
+
+        }
+        System.out.println("Reversed:" + rev);
+        input.close();
+    }
+    
+}
+>>>>>>> 46837f51ce135bed7ff5ff20cc23e55bf0eac297
