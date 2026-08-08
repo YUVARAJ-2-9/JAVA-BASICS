@@ -9,10 +9,10 @@ public class NumPat {
 
         for (int i = 1; i <= n; i++) {
             int num = 1;
-            for (int j = i; j <= num; j++) {
-                System.out.print(j+ " ");
-                num++;
+            for (int j = num; j <= i; j++) {
+                System.out.print(j+ " "); 
             }
+            num++;
             System.out.println();
         }
     }
